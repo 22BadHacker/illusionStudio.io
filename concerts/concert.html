@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/concerts/concert.css">
+    <title>illusionStudio/Concerts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="con">
+
+            <!-- navbar -->
+            <div class="nav">
+                <!-- <a href="#"><img src="/extra/1x/Plan de travail 36.png" alt="#"></a> -->
+                <li>
+                    <span><a href="#spacial" data-text="Spacial">Spacial</a></span>
+                    <span><a href="#upcoming" data-text="Upcoming">Upcoming</a></span>
+                    <span><a href="#bands" data-text="Bands">Bands</a></span>
+                    <span><a href="#" data-text="Tickets">Tickets</a></span>
+                </li>
+            </div>
+
+
+            <!-- Spacial -->
+            <div class="spacial" id="spacial">
+                <p>- Spacial Concerts- </p>
+                <p class="sec">From November To December </p>
+                <div class="column">
+                    <div class="first">
+                        <img src="/concerts/concertsImg/14-Olivia-Rodrigo-tour-opener-2024-billboard-1548.webp" alt="">
+                        <div class="bottom">
+                            <p>Olivia Rodrigo Tour</p>
+                            
+                            <button class="btn" onclick="openBox()">More Details</button>
+                        <div class="btns" id="box">
+                            <div class="blurer" id="blurer"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Olivia.jpeg" alt="">
+                                <p>Olivia Rodrigo</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Sparks	2050 Glendale Ave,North Carolina </h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBox()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.7
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/6340cab78fd33cc40fa8c5da3686718e.jpeg" alt="">
+                        <div class="bottom">
+                            <p>Taylor Swift Concert</p>
+                            
+                            <button class="btn" onclick="openBoxs()">More Details</button>
+                        <div class="btns" id="boxs">
+                            <div class="blurer" id="blurers"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Taylor Swift.jpeg" alt="">
+                                <p>Taylor Swift</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> LA, California</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 17 December | 3 Days</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxs()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.9
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/764F8954-D0DC-4154-B161-87DD4B2263F1.jpeg" alt="">
+                        <div class="bottom">
+                            <p>Marshmallow : Slow Motion</p>
+                            
+                            <button class="btn" onclick="openBoxss()">More Details</button>
+                        <div class="btns march" id="boxss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/marshmello_quick-13.jpg" alt="">
+                                <p>Marshmallow</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Las Vegas, Nevada</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 12 December | Weekend Night</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.5
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="first">
+                        <img src="/concerts/concertsImg/Maluma-cr-TES-Cesar-Pimienta-billboard-1548.webp" alt="">
+                        <div class="bottom">
+                            <p>Maluma : Daydreams </p>
+                            
+                            <button class="btn" onclick="openBoxsss()">More Details</button>
+                        <div class="btns march" id="boxsss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/maluma-elle-february-2021-cover-pictures.webp" alt="">
+                                <p>Maluma</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> NewYork, Washington DC & CA</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 20 ==> 25 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxsss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                5.0
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="first">
+                        <img src="/concerts/concertsImg/tdy_concert_9a_faouzia_john_legend_210217.jpg" alt="">
+                        <div class="bottom">
+                            <p>Faouzia : Trust me</p>
+                            
+                            <button class="btn" onclick="openBoxssss()">More Details</button>
+                        <div class="btns march" id="boxssss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/faouzia (2).jpeg" alt="">
+                                <p>Faouzia</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Usa Tour</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 November</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxssss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.8
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <span class="scrolling">
+                    <i id="left_scrolls" class='bx scroll bx-left-arrow-alt'></i>
+                    <i id="right_scrolls" class='bx scroll bx-right-arrow-alt' ></i>
+                </span>
+            </div>
+
+
+
+
+            
+            <!-- Upcoming -->
+            <div class="spacial" id="upcoming">
+                <p>- Upcoming Concerts- </p>
+                <p class="sec">The Wait Is Almost Done</p>
+                <div class="column1">
+                    <div class="first">
+                        <img src="/concerts/concertsImg/beyonce-on-the-run-opening-night-billboard-1548.webp" alt="">
+                        <div class="bottom">
+                            <p>beyonce Europe Tour</p>
+                            
+                            <button class="btn" onclick="openBox()">More Details</button>
+                        <div class="btns" id="box">
+                            <div class="blurer" id="blurer"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Olivia.jpeg" alt="">
+                                <p>Olivia Rodrigo</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Sparks	2050 Glendale Ave,North Carolina </h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBox()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.7
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/NH__1080x1080_LDN-2ba324da83.jpg" alt="">
+                        <div class="bottom">
+                            <p>Niall Horan : The Show</p>
+                            
+                            <button class="btn" onclick="openBoxs()">More Details</button>
+                        <div class="btns" id="boxs">
+                            <div class="blurer" id="blurers"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Taylor Swift.jpeg" alt="">
+                                <p>Taylor Swift</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> LA, California</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 17 December | 3 Days</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxs()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.9
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/Screenshot-2023-05-23-at-16.22.34.png" alt="">
+                        <div class="bottom">
+                            <p>Marshmallow : Slow Motion</p>
+                            
+                            <button class="btn" onclick="openBoxss()">More Details</button>
+                        <div class="btns march" id="boxss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/marshmello_quick-13.jpg" alt="">
+                                <p>Marshmallow</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Las Vegas, Nevada</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 12 December | Weekend Night</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.5
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="first">
+                        <img src="/concerts/concertsImg/coldplay.jpg" alt="">
+                        <div class="bottom">
+                            <p>ColdPlay</p>
+                            
+                            <button class="btn" onclick="openBoxsss()">More Details</button>
+                        <div class="btns march" id="boxsss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/maluma-elle-february-2021-cover-pictures.webp" alt="">
+                                <p>Maluma</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> NewYork, Washington DC & CA</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 20 ==> 25 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxsss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                5.0
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="first">
+                        <img src="/concerts/concertsImg/GettyImages-2035583294.webp" alt="">
+                        <div class="bottom">
+                            <p>Olivia Rodrigo : illusion Night</p>
+                            
+                            <button class="btn" onclick="openBoxssss()">More Details</button>
+                        <div class="btns march" id="boxssss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/faouzia (2).jpeg" alt="">
+                                <p>Faouzia</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Usa Tour</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 November</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxssss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.8
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <span class="scrolling">
+                    <i id="left_scrolls1" class='bx scroll bx-left-arrow-alt'></i>
+                    <i id="right_scrolls1" class='bx scroll bx-right-arrow-alt' ></i>
+                </span>
+            </div>
+
+
+
+
+
+
+            <!-- Bands -->
+            <div class="spacial" id="bands">
+                <p>- Upcoming Concerts- </p>
+                <p class="sec">The Wait Is Almost Done</p>
+                <div class="column1">
+                    <div class="first">
+                        <img src="/concerts/concertsImg/beyonce-on-the-run-opening-night-billboard-1548.webp" alt="">
+                        <div class="bottom">
+                            <p>beyonce Europe Tour</p>
+                            
+                            <button class="btn" onclick="openBox()">More Details</button>
+                        <div class="btns" id="box">
+                            <div class="blurer" id="blurer"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Olivia.jpeg" alt="">
+                                <p>Olivia Rodrigo</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Sparks	2050 Glendale Ave,North Carolina </h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBox()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.7
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/NH__1080x1080_LDN-2ba324da83.jpg" alt="">
+                        <div class="bottom">
+                            <p>Niall Horan : The Show</p>
+                            
+                            <button class="btn" onclick="openBoxs()">More Details</button>
+                        <div class="btns" id="boxs">
+                            <div class="blurer" id="blurers"></div>
+                            
+                            <span  class="box-window">
+                                <img src="/artists/Taylor Swift.jpeg" alt="">
+                                <p>Taylor Swift</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> LA, California</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 17 December | 3 Days</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxs()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.9
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="first">
+                        <img src="/concerts/concertsImg/Screenshot-2023-05-23-at-16.22.34.png" alt="">
+                        <div class="bottom">
+                            <p>Marshmallow : Slow Motion</p>
+                            
+                            <button class="btn" onclick="openBoxss()">More Details</button>
+                        <div class="btns march" id="boxss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/marshmello_quick-13.jpg" alt="">
+                                <p>Marshmallow</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Las Vegas, Nevada</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 12 December | Weekend Night</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.5
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="first">
+                        <img src="/concerts/concertsImg/coldplay.jpg" alt="">
+                        <div class="bottom">
+                            <p>ColdPlay</p>
+                            
+                            <button class="btn" onclick="openBoxsss()">More Details</button>
+                        <div class="btns march" id="boxsss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/maluma-elle-february-2021-cover-pictures.webp" alt="">
+                                <p>Maluma</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> NewYork, Washington DC & CA</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 20 ==> 25 December </h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxsss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                5.0
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="first">
+                        <img src="/concerts/concertsImg/GettyImages-2035583294.webp" alt="">
+                        <div class="bottom">
+                            <p>Olivia Rodrigo : illusion Night</p>
+                            
+                            <button class="btn" onclick="openBoxssss()">More Details</button>
+                        <div class="btns march" id="boxssss">
+                            <!-- <div class="blurer" id="blurerss"></div> -->
+                            
+                            <span  class="box-window">
+                                <img src="/artists/faouzia (2).jpeg" alt="">
+                                <p>Faouzia</p>
+
+
+                                <h5><i class="fa-solid fa-location-dot"></i> Usa Tour</h5>
+                                <h5><i class="fa-regular fa-clock"></i> 15 November</h5>
+                                <a href="" class="close1 btn">Get Your Ticket</a>
+                                <button class="btn close" onclick="closeBoxssss()">Close</button>
+                            </span>
+
+                        </div>
+                            
+                            <span>
+                                4.8
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <span class="scrolling">
+                    <i id="left_scrolls1" class='bx scroll bx-left-arrow-alt'></i>
+                    <i id="right_scrolls1" class='bx scroll bx-right-arrow-alt' ></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="conn.js"></script>
+</body>
+</html>
