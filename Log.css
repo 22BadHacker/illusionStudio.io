@@ -391,3 +391,192 @@
 .foot2{
     margin-top: 65px !important;
 }
+
+
+
+
+@media (max-width:500px) {
+    form{
+        width: 110% !important;
+        height: 90vh !important;
+        display: flex !important;
+        
+    }
+
+    .part_one{
+        width: 100% !important;
+        display: flex !important;
+        /* justify-content: center !important; */
+        align-items: center !important;
+        scale: .85;
+        gap: 100px !important;
+    }
+
+    .nav{
+        position: relative !important;
+        left: -80px !important;
+        /* scale: 1; */
+        gap: 10px !important;
+        width: 100% !important;
+
+        span{
+            display: none !important;
+            display: flex;
+            gap: 100px !important;
+            position: absolute !important;
+            left: 30% ;
+            /* translate: -50% 0; */
+            a{
+                font-size: 20px !important;
+            }
+        }
+    }
+    img{
+        width: 440px !important;
+        position: absolute !important;
+        left: 0% !important;
+        top: -100px !important;
+        /* translate: -50% 0; */
+    }
+    .main3{
+        /* padding-left: 10px !important; */
+        padding-right: 10px !important;
+
+        .btn{
+            display: flex !important;
+            flex-direction: column;
+            align-items: center !important;
+            position: relative;
+            gap: 15px !important;
+
+            a{
+                width: 70% !important;
+                height: 50px !important;
+                font-size: 20px;
+                text-align: center;
+            }
+            .google{
+                margin-left: 0 !important;
+            }
+        }
+
+
+    }
+
+    .check{
+        display: flex !important;
+        gap: 30px !important;
+
+        .pass{
+            /* padding-right: 40px !important; */
+            position: relative;
+            left: 150px;
+
+        }
+        a{
+            font-size: 15px !important;
+
+        }
+    }
+    .main2{
+        padding-right: 10px !important;
+
+        
+       
+
+        .btn{
+            width: 100% !important;
+            scale: 1.2;
+            /* width: 600px !important;
+            display: flex !important;
+            gap: 10px !important;
+            align-items: center !important;
+            justify-content: center; */
+            .google{
+                /* width: 800px!important; */
+                /* margin-top: 50px !important; */
+            }
+        }
+    }
+
+    .main{
+        /* padding-left: 20px !important; */
+
+        h6,p{
+            font-size: 17px !important;
+            padding-left: 20px !important;
+            a{
+                font-size: 19px !important;
+            }
+        }
+
+        h1{
+            font-size: 40px !important;
+            padding-left: 20px !important;
+        }
+        .user,.email{
+            /* scale: 1.05 !important; */
+            width: 480px !important;
+            height: 80px !important;
+            padding: 0 10px;
+            border-radius: 25px !important;
+            label{
+                font-size: 14px !important;
+            }
+            input{
+                width: 100% !important;
+                padding: 20px 0px !important;
+                font-size: 18px !important;
+            }
+
+            i{
+                font-size: 22px;
+            }
+
+        }
+    }
+    
+    .foot{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 50px !important;
+        position: relative;
+        left: -80px;
+
+        a{
+            font-size: 15px !important;
+            position: relative !important;
+            top: 20px !important;
+        }
+    }
+
+    .foot2{
+        
+
+        a{
+            font-size: 16px !important;
+            position: relative !important;
+            top: -85px !important;
+        }
+    }
+
+    .btn{
+        scale: 1.05;
+    }
+
+}
+
+
+/* input{
+    height: 27px;
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-top: 12px;
+    color: ghostwhite;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+} */
